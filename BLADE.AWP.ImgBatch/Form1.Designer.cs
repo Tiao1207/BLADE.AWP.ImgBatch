@@ -40,7 +40,7 @@
             radioButton1 = new RadioButton();
             radioButton2 = new RadioButton();
             groupBox1 = new GroupBox();
-            wcwmf = new CheckBox();
+            wcjfif = new CheckBox();
             wcemf = new CheckBox();
             wcexif = new CheckBox();
             wcheif = new CheckBox();
@@ -232,7 +232,7 @@
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(wcwmf);
+            groupBox1.Controls.Add(wcjfif);
             groupBox1.Controls.Add(wcemf);
             groupBox1.Controls.Add(wcexif);
             groupBox1.Controls.Add(wcheif);
@@ -250,18 +250,18 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "要处理的文件类型";
             // 
-            // wcwmf
+            // wcjfif
             // 
-            wcwmf.AutoSize = true;
-            wcwmf.Checked = true;
-            wcwmf.CheckState = CheckState.Checked;
-            wcwmf.FlatStyle = FlatStyle.Flat;
-            wcwmf.Location = new Point(310, 33);
-            wcwmf.Name = "wcwmf";
-            wcwmf.Size = new Size(54, 21);
-            wcwmf.TabIndex = 9;
-            wcwmf.Text = "WMF";
-            wcwmf.UseVisualStyleBackColor = true;
+            wcjfif.AutoSize = true;
+            wcjfif.Checked = true;
+            wcjfif.CheckState = CheckState.Checked;
+            wcjfif.FlatStyle = FlatStyle.Flat;
+            wcjfif.Location = new Point(310, 33);
+            wcjfif.Name = "wcjfif";
+            wcjfif.Size = new Size(45, 21);
+            wcjfif.TabIndex = 9;
+            wcjfif.Text = "JFIF";
+            wcjfif.UseVisualStyleBackColor = true;
             // 
             // wcemf
             // 
@@ -1197,7 +1197,7 @@
         private CheckBox wcjpg;
         private CheckBox wcexif;
         private CheckBox wcheif;
-        private CheckBox wcwmf;
+        private CheckBox wcjfif;
         private CheckBox wcemf;
         private GroupBox groupBox2;
         private RadioButton radioButton4;

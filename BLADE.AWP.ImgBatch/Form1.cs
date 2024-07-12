@@ -605,7 +605,7 @@ namespace BLADE.AWP.ImgBatch
             if (wcpng.Checked) { ttt.Add("PNG"); }
             if (wctif.Checked) { ttt.Add("TIF"); }
             if (wcwebp.Checked) { ttt.Add("WEBP"); }
-            if (wcwmf.Checked) { ttt.Add("WMF"); }
+            if (wcjfif.Checked) { ttt.Add("JFIF"); }
             return ttt.ToArray();
         }
         protected string[] scanIMGs()
